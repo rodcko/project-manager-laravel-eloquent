@@ -38,5 +38,8 @@ Route::get('updateProject', [ProjectController::class, 'updateProject']);
 // Reto: actualizar el nombre de los proyectos inactivos
 Route::get('updateInactiveProjects', [ProjectController::class, 'updateInactiveProjects']);
 
+// Deletes
+Route::get('deleteProject', [ProjectController::class, 'deleteProject']);
+
 
 
