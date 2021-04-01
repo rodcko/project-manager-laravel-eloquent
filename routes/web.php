@@ -32,4 +32,11 @@ Route::get('insertNewCity', [CityController::class, 'insertCity']);
 Route::get('insertNewCompany', [CompanyController::class, 'insertCompany']);
 Route::get('insertNewUser', [UserController::class, 'insertUser']);
 
+// Updates
+Route::get('updateProject', [ProjectController::class, 'updateProject']);
+
+// Reto: actualizar el nombre de los proyectos inactivos
+Route::get('updateInactiveProjects', [ProjectController::class, 'updateInactiveProjects']);
+
+
 
